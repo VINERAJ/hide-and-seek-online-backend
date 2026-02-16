@@ -3,6 +3,7 @@ import requests
 import random
 import uuid
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 google_maps_key = os.getenv("GOOGLE_MAPS_API_KEY")

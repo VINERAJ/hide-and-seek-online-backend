@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
-from game import Game
+from backend.game import Game
 
 app = Flask(__name__)
 CORS(app)
